@@ -76,15 +76,5 @@ gulp.task('watch', function(){
 
 gulp.task('default', gulp.parallel('style', 'script', 'sass', 'watch', 'browser-sync'))
 
-
-
-
-
-
-
-
-
-
-
 /*compressed - мин
 expanded - обычный вид*/
